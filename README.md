@@ -20,12 +20,15 @@ This is a dataset that requires a lot of preprocessing. A lot of the features ar
 It is not a surprise that average movie reveneu is positively correlated with year. Recently released movie has higher revenue; however, one could factor in inflation, buying power for further consideration. 
 
 After exploring the categorical variables and their relationships to the revenue variable, I took a closer look at numerical variables. Firstly, I was curious about the distribution of the dependent variable- revenue. I transformed the revenue variable with log becasue the original does not follow a normal distribution. 
+![](images/Log_Revenue_Dist.png)
 
 ![](images/Moive_Release_by_Year.png)
-![](images/Log_Revenue_Dist.png)
-![](images/Correlation_Matrix.png)
-![](images/Pairplot.png)
+It not surprised that recent movies have higher revenue compared to earlier ones. SOme possible reasons could be inflation, and dollar buying power. 
 
+![](images/Pairplot.png)
+The plot shows that revenue might be correlated with budget. 
+
+![](images/Correlation_Matrix.png)
 Based on the correlation matrix, budget does have a strong correlation with revenue while runtime has a weak positive correlation with revenue.
 
 ## Modeling
