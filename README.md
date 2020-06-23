@@ -9,6 +9,9 @@ What are some important factors that make a newly debuted movie profitable? Is i
 ## Data Preprocessing 
 This is a dataset that requires a lot of preprocessing. A lot of the features are json type string objects composed of list of dictionaries. I preprocessed most of these features into categorical varaible. For example, a datapoint with a link in its homepage varaible will be transformed to binary feature (1 as with hompage 0 as without homepage). 
 
+![](images/Genres.png.png)
+
+![](images/Collections.png)
 ## Exploratory Data Analysis
 
 It is not a surprise that average movie reveneu is positively correlated with year. Recently released movie has higher revenue; however, one could factor in inflation, buying power for further consideration. 
