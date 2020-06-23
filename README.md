@@ -9,14 +9,22 @@ What are some important factors that make a newly debuted movie profitable? Is i
 ## Data Preprocessing 
 This is a dataset that requires a lot of preprocessing. A lot of the features are json type string objects composed of list of dictionaries. I preprocessed most of these features into categorical varaible. For example, a datapoint with a link in its homepage varaible will be transformed to binary feature (1 as with hompage 0 as without homepage). 
 
-![](images/Genres.png.png)
+![](images/Genres.png)
 
 ![](images/Collections.png)
+
+![](images/Production_countries.png)
+
 ## Exploratory Data Analysis
 
 It is not a surprise that average movie reveneu is positively correlated with year. Recently released movie has higher revenue; however, one could factor in inflation, buying power for further consideration. 
 
 After exploring the categorical variables and their relationships to the revenue variable, I took a closer look at numerical variables. Firstly, I was curious about the distribution of the dependent variable- revenue. I transformed the revenue variable with log becasue the original does not follow a normal distribution. 
+
+![](images/Moive_Release_by_Year.png)
+![](images/Log_Revenue_Dist.png)
+![](images/Correlation_Matrix.png)
+![](images/Pairplot.png)
 
 Based on the correlation matrix, budget does have a strong correlation with revenue while runtime has a weak positive correlation with revenue.
 
