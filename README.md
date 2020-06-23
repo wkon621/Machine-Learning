@@ -30,7 +30,7 @@ I decided to use Root Mean Square Error to measure the success of my model given
 
 After comparing the performance of each model, I predicted the revenue from the test dataset using the saved model, and saved the predictions as CSV file. Moreover, I also predicted the movie revenue with a smiple nerual networks with 2 layers but the RMSE is far behind the graident boosting model. As the last step, I wanted to know which features play the most important role in prediciting movie revenue. budget, popularity, runtime, and cast counts play the most important role in the model.
 
-![alt text]https://raw.githubusercontent.com/wkon621/Movie-Revenue-Prediction/master/images/Feature_Importance.png
+![](images/Feature_Importance.png) 
 
 ## Conclusion
 To sum up, I  developed a model that predicts movie revenue based on different features. After performing the exploratory data analysis, I created a baseline model, fitted three models, and outputed their root mean squared errors for comparsion against one another. The best performing model is the gradient boosting model. I saved the best model, and predicted the revenue of test data with it. The results of the prediction and feature importance are all saved in csv file.Future iterations of this analysis may incorporate more features, such as imdb score, rotten tomatoes, and whether the copyright has been bought by foreign studios. 
