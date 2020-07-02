@@ -7,9 +7,11 @@ Predicting movie revenue using Linear Regression, Random Forest, Gradient Boosti
 What are some important factors that make a newly debuted movie profitable? Is it simply based on the budget, cast, languages, or its more complicated than that? I would like to investigate this question using existing movie data and its associated revenue with the first movie dates back to 1930. After exploring the data, I will develop a model and plot which features are the most important in determining movie revenue of newly premier movie. The language of this data science project problem is Python, using packages such as pandas, numpy, matplotlib, seaborn, and sklearn.
 
 ## Data Preprocessing 
-This is a dataset that requires a lot of preprocessing. A lot of the features are json type string objects composed of list of dictionaries. I preprocessed most of these features into categorical varaible. For example, a datapoint with a link in its homepage varaible will be transformed to binary feature (1 as with hompage 0 as without homepage). 
+This is a dataset that requires a lot of preprocessing. A lot of the features are json type string objects composed of list of dictionaries. I preprocessed most of these features into categorical varaible. For example, a datapoint with a link in its homepage varaible will be transformed to a binary feature (1 as with hompage 0 as without homepage). 
 
 ![](images/Genres.png)
+
+Top 3 genre in the dataset are comedy, action, and drama. 
 
 ![](images/Collections.png)
 
